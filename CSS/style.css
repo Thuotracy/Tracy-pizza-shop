@@ -203,12 +203,12 @@ h4 {
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: powderblue;
     height: 100%;
 }
 
 #push {
-    padding-top: 10%;
+    padding-top: 30%;
 }
 
 .landing-text {
