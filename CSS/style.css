@@ -176,6 +176,7 @@ h4 {
 
 .pizz {
     color: lawngreen;
+    flex-direction: row;
 }
 
 .menu {
@@ -203,12 +204,15 @@ h4 {
 }
 
 .overlay {
-    background-color: powderblue;
+    
     height: 100%;
 }
 
 #push {
     padding-top: 30%;
+    background-image: url(/images/background.jpg);
+    background-size: cover;
+    height: 700px;
 }
 
 .landing-text {
