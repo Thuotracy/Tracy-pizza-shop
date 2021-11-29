@@ -4,211 +4,142 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tracy's Pizza Hut</title>
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <!-- Wicked css -->
-    <link rel="stylesheet" href="css/wickedcss.min.css">
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <link rel="stylesheet" href="css/font-awesome.css">
-    <!-- Bootstrap core CSS -->
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
-    <!--Custom css file -->
+    <!-- Custom css file --> -->
     <link rel="stylesheet" href="CSS/style.css">
+   
 </head>
 <body>
-<!--Start Navigation //-->
-<!-- <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar"> -->
-    <h1 id="tracy"> Tracy's Pizza Hut</h1>
-    <!-- <div class="navi">
-        <ul class="nav-items">
-            <li><a href="#menus">Menu</a></li>
-            <li><a href="#order">Order</a></li>
-            <li><a href="#contact">Contact us</a></li>
-        </ul>
-    </div> -->
-</nav>
-<!--End Navigation-->
-
-
-<!--Start Landing-->
-<div class="landing">
-    <div class="overlay">
-        <div id="push"></div>
-        <div class="landing-text">
-            <!-- <h1 class="text-white text-center"><span class="pizz">WELCOME </span></h1>
-            <h2 class="text-white text-center">Get your pizza in an instant.</h2> -->
-        </div>
+        <h1 id="tracy"> Tracy's Pizza Hut</h1>
     
-        <h1>WELCOME</h1>
+    
+ <!--Start Landing-->
+    <div class="landing">
+        <div class="overlay">
+            <div id="push"></div>
+            <div class="landing-text"></div>
+        
+        </div>
     </div>
-</div>
-<!--End Landing-->
-
-<!--Welcome Section-->
-
-<div class="welcome" id="welcome">
-    <br><br><br><br>
-    <div class="col-sm-12">
-        <div class="row">
-            <div class="col-sm-6">
-                <!-- <img src="images/sec/ab1.png" alt="chef-cartoon" class="karibu-img"> -->
+    <!--End Landing-->
+    
+    <!--Welcome Section-->
+    
+    <div class="welcome" id="welcome">
+        <br><br><br><br>
+                    <h1 class="text-center txt txt-big">Welcome to Pizza Hut</h1>
+                    <p class="text-center txt">Place your order and we will deliever.</p>
+                    <a href="#menus">
+                        <button class="btn bg-info mx-auto d-block menu-btn">Menu</button>
+                    </a>
+    </div>
+    <!--Start Content-->
+    
+    <div id="menus"></div>
+    <br>
+    <div class="menu col-md-12">
+        <div class="menu-overlay">
+            <h1 class="text-center text-white" id="menu">Menu</h1>
+            <div class="pizza-menu row text-center">
+                <figure class="col-sm-4">
+                    <img src="images/pizza one.jpg"small-pizza" class="wiggle">
+                    <figcaption class="text-white">Small<br>Ksh. 500</figcaption>
+                </figure>
+                <figure class="col-sm-4">
+                    <img src="images/pizza two.jpg" alt="medium-pizza" class="wiggle">
+                    <figcaption class="text-white">Medium<br>Ksh. 800</figcaption>
+                </figure>
+                <figure class="col-sm-4">
+                    <img src="images/pizza three.jpg" alt="large-pizza" class="wiggle">
+                    <figcaption class="text-white">Large<br>Ksh. 1300</figcaption>
+                </figure>
             </div>
-            <div class="col-md-6 karibu-txt">
-                <h1 class="text-center txt txt-big">Welcome to Pizza Hut</h1>
-                <p class="text-center txt">Place your order and we will deliever.</p>
-                <a href="#menus">
-                    <button class="btn bg-info mx-auto d-block menu-btn">Menu</button>
-                </a>
-            </div>
         </div>
     </div>
-</div>
-<!--Start Content-->
-
-<div id="menus"></div>
-<br>
-<div class="menu col-md-12">
-    <div class="menu-overlay">
-        <h1 class="text-center text-white" id="menu">Menu</h1>
-        <div class="pizza-menu row text-center">
-            <figure class="col-sm-4">
-                <img src="images/pizza one.jpg"small-pizza" class="wiggle">
-                <figcaption class="text-white">Small<br>Ksh. 500</figcaption>
-            </figure>
-            <figure class="col-sm-4">
-                <img src="images/pizza two.jpg" alt="medium-pizza" class="wiggle">
-                <figcaption class="text-white">Medium<br>Ksh. 800</figcaption>
-            </figure>
-            <figure class="col-sm-4">
-                <img src="images/pizza three.jpg" alt="large-pizza" class="wiggle">
-                <figcaption class="text-white">Large<br>Ksh. 1300</figcaption>
-            </figure>
-        </div>
-    </div>
-</div>
-
-<div class="orders" id="order">
-    <h1 class="text-center" id="order-pizza">Order Pizza</h1>
-    <div class="form-group row">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-8 order-overlay text-center">
-            <form class="col-sm-6 offset-sm-3 text-center">
-                <label>Select your pizza Flavour:</label>
-                <select class="custom-select custom-select-md mb-3 flavour" required>
-                    <option value="vegtikka">Veg Tikka</option>
-                    <option value="chickentikka">Chicken Tikka</option>
-                    <option value="periperi">Peri-Peri Chicken</option>
-                    <option value="bbq">BBQ Steak</option>
-                    <option value="boerewors">Boerewors</option>
-                    <option value="hawaiian">Hawaiian</option>
-                    <option value="mushroom">Chicken and Mushroom</option>
-                
-                </select>
-                <label>Chose your preferred Size:</label>
-                <select class="custom-select custom-select-md mb-3" id="size" required>
-                    <option value="small">Small</option>
-                    <option value="medium">Medium</option>
-                    <option value="large">Large</option>
-                </select>
-                <label for="crust">Choose your favorite Crust:</label>
-                <select class="custom-select custom-select-md mb-3" id="crust" required>
-                    <option value="thin">Thin Crust @ Ksh. 150</option>
-                    <option value="thick">Thick Crust @ Ksh. 250</option>
-                    <option value="flatbread">FlatBread Crust @ sh. 200</option>
-                    <option value="custom">Custom Crust @ sh. 350</option>
-                </select>
-                <label>Select Your favourite Toppings</label>
-                <select class="custom-select custom-select-md mb-3" id="toppings" required>
-                    <option value="mushroom">Mushroom @ sh. 120</option>
-                    <option value="greenpepper">Green Pepper @ sh. 50</option>
-                    <option value="olives">Olives @ sh. 100</option>
-                    <option value="pineapple">Pineapple @ sh. 150</option>
-                    <option value="bacon">Bacon @ sh. 250</option>
-                    <option value="mince">Mince @ sh. 120</option>
-                    <option value="beef"> Peperoni @ sh. 170</option>
-                    <option value="chicken">Chicken @ sh. 200</option>
-                </select>
-                <label for="number">Number of Pizza</label>
-                <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
-
-
-            </form>
-            <a href="#summary">
-                <button type="submit" class="btn btn-success checkout" id="checkout">
-                    Order
-                </button>
-            </a>
-
-        </div>
-        <div class="col-sm-2"></div>
-    </div>
-</div>
-
-<div class="order-summary" id="sum-order">
-    <h2 class="text-center summary">Hello there, please confirm your order:</h2>
-    <ol id="list" class="text-center sum">
-    </ol>
-
-
-    <div class="cdata-overlay">
-        <div class="customerdata row">
-            <div class="col-sm-3"></div>
-            <form action="" class="form-group col-sm-6 data">
-                <input type="text" class="form-control cdata" placeholder="Name:">
-                <input type="text" class="form-control cdata" placeholder="Phone Number:">
-                <input type="text" class="form-control cdata" placeholder="Location:">
-                <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
-            </form>
-
-            <div class="col-sm-3"></div>
-        </div>
-    </div>
-    <div class="d-block mx-auto text-center">
-        <button class='deliver'>Request Delivery</button>
-        <button class='delivernot'>Pick Up</button>
-    </div>
-</div>
-
-<!-- <div class="contacts">
-    <div class="contact-overlay">
-        <h1 class="text-center contact text-white">Contacts:</h1>
-        <div class="row">
-            <div class="col-sm-1"></div>
-            <div class="col-sm-5 subs">
-                <h1 class="text-white text-center"> Call Us </h1>
-                <p class="text-center">+254 1267 4890</p>
-                <form>
-                    <div class="email-info">
-                        <div class="form-group fill-all-form">
-                            <input type="email" class="form-control bg-transparent email" id="email" placeholder="Email"
-                                   required="">
-                        </div>
-                    </div>
-                    <div class=" email-info text-center">
-                        <button class="btn click-me" onclick="subscribe();">Submit</button>
-                    </div>
+    
+    <div class="orders" id="order">
+        <h1 class="text-center" id="order-pizza">Order Pizza</h1>
+        <div class="form-group row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8 order-overlay text-center">
+                <form class="col-sm-6 offset-sm-3 text-center">
+                    <label>Select your pizza Flavour:</label>
+                    <select class="custom-select custom-select-md mb-3 flavour" required>
+                        <option value="vegtikka">Veg Tikka</option>
+                        <option value="chickentikka">Chicken Tikka</option>
+                        <option value="periperi">Peri-Peri Chicken</option>
+                        <option value="bbq">BBQ Steak</option>
+                        <option value="boerewors">Boerewors</option>
+                        <option value="hawaiian">Hawaiian</option>
+                        <option value="mushroom">Chicken and Mushroom</option>
+                    
+                    </select>
+                    <label>Chose your preferred Size:</label>
+                    <select class="custom-select custom-select-md mb-3" id="size" required>
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+                    <label for="crust">Choose your favorite Crust:</label>
+                    <select class="custom-select custom-select-md mb-3" id="crust" required>
+                        <option value="thin">Thin Crust @ Ksh. 150</option>
+                        <option value="thick">Thick Crust @ Ksh. 250</option>   
+                        <option value="custom">Custom Crust @ sh. 350</option>
+                    </select>
+                    <label>Select Your favourite Toppings</label>
+                    <select class="custom-select custom-select-md mb-3" id="toppings" required>
+                        <option value="mushroom">Mushroom @ sh. 120</option>
+                        <option value="greenpepper">Green Pepper @ sh. 50</option>
+                        <option value="olives">Olives @ sh. 100</option>
+                        <option value="pineapple">Pineapple @ sh. 150</option>
+                        <option value="bacon">Bacon @ sh. 250</option>
+                        <option value="mince">Mince @ sh. 120</option>
+                        <option value="beef"> Peperoni @ sh. 170</option>
+                        <option value="chicken">Chicken @ sh. 200</option>
+                    </select>
+                    <label for="number">Number of Pizza</label>
+                    <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
+    
+    
                 </form>
+                <a href="#summary">
+                    <button type="submit" class="btn btn-success checkout" id="checkout">
+                        Order
+                    </button>
+                </a>
+    
             </div>
-            <div class="col-sm-5">
-                <h4 class="text-center get-pizza">Email us your feedback.</h4>
-            </div>
-            <div class="col-sm-1"></div>
+            <div class="col-sm-2"></div>
         </div>
     </div>
-</div> -->
-
-<!--End Content-->
-<script src="js/script.js"></script>
-</body>
-<!-- <script src="js/jquery.js"></script>
-<script src="js/script.js"></script>
-<script src="js/scrollify.js"></script> -->
-
+    
+    <div class="order-summary" id="sum-order">
+        <h2 class="text-center summary">Hello there, please confirm your order:</h2>
+        <ol id="list" class="text-center sum">
+        </ol>
+    
+    
+        <div class="cdata-overlay">
+            <div class="customerdata row">
+                <div class="col-sm-3"></div>
+                <form action="" class="form-group col-sm-6 data">
+                    <input type="text" class="form-control cdata" placeholder="Name:">
+                    <input type="text" class="form-control cdata" placeholder="Phone Number:">
+                    <input type="text" class="form-control cdata" placeholder="Location:">
+                    <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
+                </form>
+    
+                <div class="col-sm-3"></div>
+            </div>
+        </div>
+        <div class="d-block mx-auto text-center">
+            <button class='deliver'>Request Delivery</button>
+            <button class='delivernot'>Pick Up</button>
+        </div>
+    </div>
+    <!--End Content-->
+    <script src="js/script.js"></script>
+    </body>
 </html>
 

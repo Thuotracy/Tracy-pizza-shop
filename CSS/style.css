@@ -64,19 +64,19 @@ figcaption {
     padding-top: 20px;
 }
 
-#order-pizza {
+/* #order-pizza {
     color: #000;
-}
+} */
 
 #list li {
     font-size: 24px;
     font-family: system-ui, serif;
 }
 
-.order-summary h1, .summary, .contact {
+/* .order-summary h1, .summary, .contact {
     color: #000;
     font-family: 'Love Ya Like A Sister', cursive;
-    margin-top: 30px;
+    margin-top: 30px; */
 }
 
 .contacts {
@@ -196,7 +196,7 @@ h4 {
 
 /*Background pic*/
 .landing {
-    background-image: url("../images/pizzabg.jpeg");
+    background-image: url("../images/background.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
