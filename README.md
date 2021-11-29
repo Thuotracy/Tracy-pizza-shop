@@ -7,14 +7,13 @@
 A website that allows you to order your pizza and it is prepared to your prefference.This website is super efficient and easy to use.
 
 ## Live link
-thuotracy.github.io/delanistudio/
+ https://thuotracy.github.io/Tracy-pizza-shop/
 
 ## Known Bugs
 No. There are no known bugs.
 
 ## Technologies Used
 HTML
-jQuery
 Bootstrap
 Javascript
 CSS
