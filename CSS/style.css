@@ -1,14 +1,3 @@
-
-/* @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Love+Ya+Like+A+Sister|Special+Elite&display=swap'); */
-
-/*
-'Shadows Into Light', cursive
-*/
-* {
-    /* box-sizing: border-box;
-    scroll-behavior: smooth; */
-}
 body {
     margin: 0;
     padding: 0;
@@ -20,93 +9,10 @@ body {
     color: steelblue;
 }
 
-/* .navi {
-    float: right;
-} */
-
-/* .exc {
-    color: yellow;
-} */
-
-/* #piz-pap {
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 35px;
-    font-weight: normal;
-    color: darkorange; */
-}
-
-/* li {
-    display: inline;
-    margin-right: 20px;
-} */
-
-/* .h-buttons {
-    margin-top: 90px;
-    margin-bottom: 100px;
-} */
-
 .h-buttons button {
     border-radius: 40px;
     color: black;
 }
-
-/* .menu-btn {
-    border-radius: 20px;
-    margin-top: 20px;
-    color: #000; */
-}
-
-/* figcaption {
-    font-family: 'Oswald', serif;
-} */
-
-/* #menu {
-    padding-top: 20px;
-} */
-
-/* #order-pizza {
-    color: #000;
-} */
-
-/* #list li {
-    font-size: 24px;
-    font-family: system-ui, serif;
-} */
-
- /* .order-summary h1, .summary, .contact {
-    color: #000;
-    font-family: 'Love Ya Like A Sister', cursive;
-    margin-top: 30px; 
-} */
-
-/* /* .contacts {
-    background-image: url("../images/sec/b1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; */
-} */
-
-/* .contact-overlay {
-    height: inherit;
-    background-color: rgba(0, 0, 0, 0.7);
-} */
-
-/* input[type="email"] {
-    background: transparent;
-    border: 1px solid #ffffff;
-    padding: .8em .7em;
-    border-radius: 20px;
-    outline: none !important;
-    font-size: 14px;
-} */
-
-/* .click-me {
-    margin-top: 20px;
-    margin-bottom: 20px;
-} */
-
-/* .get-pizza {
-    margin-top: 40px;
-} */
 
 .contact {
     padding-top: 20px;
@@ -123,9 +29,6 @@ body {
     border-radius: 10px;
 }
 
-/* .go {
-    border-radius: 20px;
-} */
 
 .click-me, button[type=submit], .deliver, .delivernot {
     color: #fff;
@@ -141,22 +44,6 @@ body {
     font-size: 14px;
 }
 
-/* .deliver, .delivernot {
-    margin: 10px;
-} */
-
-/* h4 {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 1px;
-} */
-
-/* #order-pizza {
-    padding: 20px 50px 20px 50px;
-    font-family: 'Love Ya Like A Sister', cursive;
-} */
-
 .order-overlay {
     height: inherit;
     padding: 20px;
@@ -164,48 +51,11 @@ body {
     border-radius: 20px;
 }
 
-/* .checkout {
-    border-radius: 20px;
-    margin-top: 20px;
-} */
-
-/* #list {
-    color: #000;
-} */
-
-/* .pizz {
-    color: lawngreen;
-    flex-direction: row;
-} */
-
-/* .menu {
-    margin-top: 30px;
-    background-image: url("../images/sec/b4.jpg");
-    padding: 0;
-} */
-
-/* #menu {
-    font-family: 'Love Ya Like A Sister', cursive;
-} */
-
 .menu-overlay {
     height: inherit;
     width: inherit;
     background-color: rgba(0, 0, 0, 0.7);
 }
-
-/* Background pic
-.landing {
-    background-image: url("../images/background.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-} */
-
-/* .overlay {
-    
-    height: 100%;
-} */
 
 #push {
     padding-top: 30%;
@@ -214,34 +64,10 @@ body {
     height: 700px;
 }
 
-/* .landing-text {
-    margin-top: 10%;
-} */
-
-/* .landing-text h1, h2 {
-    font-family: 'Love Ya Like A Sister', cursive;
-} */
-
-/* .landing-text h1 {
-    font-family: 'Gloria Hallelujah', cursive;
-    font-size: 60px;
-} */
-
-
-/* a {
-    color: white;
-    font-size: 18px;
-    font-weight: normal;
-} */
-
 figure img {
     height: 260px;
     width: 260px;
 }
-
-/* .karibu-txt {
-    margin-top: 160px;
-} */
 
 .txt {
     font-family: system-ui, cursive;
@@ -254,105 +80,8 @@ figure img {
     font-family: 'Shadows Into Light', cursive;
 }
 
-/* .karibu-img {
-    margin-top: 10px;
-    margin-left: 80px;
-    margin-bottom: 130px;
-    height: 400px;
-    width: 400px;
-} */
-
-/* .welcome {
-    padding-top: 30px;
-} */
-
-/* .rads {
-    display: flex;
-    flex-wrap: wrap;
-} */
-
-/* .fab {
-    margin: 60px 15px 0 15px;
-} */
-
-/* Collapse nav start
-.top-nav-collapse {
-    background-color: #3f51b5 !important;
-} */
-
 .navbar:not(.top-nav-collapse) {
     background: transparent !important;
-}
-
-/* Collapse nav end*/
-
-
-/** Media Queries start **/
-
-/* @media (max-width: 740px) {
-    html,
-    body,
-    header,
-    .view {
-        height: 1000px;
-        overflow-x: hidden;
-    } */
-
-    /* #push {
-        padding-top: 40%;
-    } */
-
-    /* .karibu-txt {
-        margin-top: 50px;
-    } */
-
-    /* .menu-overlay {
-        width: 100%;
-        height: inherit;
-        background-color: rgba(0, 0, 0, 0.7); */
-    }
-
-    /* .karibu-img {
-        margin-left: 20px;
-        margin-bottom: 10px;
-        height: 300px;
-        width: 270px;
-    } */
-
-    /* .welcome {
-        padding-top: 10px;
-    } */
-
-    /* .cdata {
-        padding: 10px 5px 10px 5px;
-    } */
-
-}
-
-/* @media (min-width: 800px) and (max-width: 850px) {
-    html,
-    body,
-    header,
-    .view {
-        height: 650px;
-    }
-
-    .piz-pap {
-        font-size: 50px;
-    } */
-
-    /* ul > .nav-items {
-        display: inline;
-        margin-right: 20px;
-        margin-left: 12px;
-    } */
-}
-
-/* @media (max-width: 991px) {
-    .navbar:not(.top-nav-collapse) {
-        background: #3f51b5 !important;
-    } */
-
 }
 #confirm{
     color: steelblue;
