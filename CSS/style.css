@@ -59,7 +59,7 @@ body {
 
 #push {
     padding-top: 30%;
-    background-image: url(../images/background.jpg);
+    background-image: url("../images/background.jpg");
     background-size: cover;
     height: 700px;
 }
